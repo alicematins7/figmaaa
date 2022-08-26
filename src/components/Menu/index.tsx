@@ -2,13 +2,14 @@ import React from "react";
 import { FcReuse } from "react-icons/fc";
 import * as S from "./styles";
 import { Link } from "react-router-dom";
+import logo from "assets/img/logo.png"
 
 const Menu = () => {
   return (
     <S.Cabecalho>
       <picture>
         <Link to="/">
-          <img />
+          <img src = {logo} alt="Imagens Principais"/>
         </Link>
       </picture>
       <nav>

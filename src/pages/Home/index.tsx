@@ -1,5 +1,6 @@
 import React from "react";
 import carrousel from "assets/img/carrousel.png";
+import logo from "assets/img/logo.png";
 import * as S from "./styles";
 import { CardComponent } from "components";
 
